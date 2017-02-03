@@ -1,0 +1,15 @@
+.textPart{
+  &:before{
+    content: '&nbsp;';
+    display: inline-block;
+    visibility: hidden;
+    float: left;
+    width: 30px;
+    height:100%;
+  }
+  &:after{
+    content:'';
+    display: block;
+    clear: both;
+  }
+}
